@@ -8,7 +8,7 @@ int main(){
 	cout<<"Luas Rumah\t\t: ";
 	cin>>lurum;
 	cout<<"Jumlah Box Parket\t: ";cin>>jumbi;
-	cout<<"-----------------------------------------";
+	cout<<"-----------------------------------------"<<endl;
 	cout<<"Luas Rumah\t\t: "<<lurum;cout<<"m2"<<endl;
 	x=par*jumbi;
 	y=lurum/x;
