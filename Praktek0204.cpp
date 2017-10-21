@@ -5,9 +5,9 @@ using namespace std;
 int main(){
 	double lurum,par=1.87596,jumbi,bipar,bipas,jumbox,tobil,x,y; 
 	
-	cout<<"LUAS RUMAH\t\t";
+	cout<<"LUAS RUMAH\t";
 	cin>>lurum;
-	cout<<"Jumlah Box Perket";cin>>jumbox;
+	jumbi=;
 	cout<<"Luas Rumah : "<<lurum;cout<<"m2"<<endl;
 	x=par*jumbi;
 	y=lurum/x;
