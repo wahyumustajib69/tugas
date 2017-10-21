@@ -5,20 +5,20 @@ using namespace std;
 int main(){
 	double lurum,par=1.87596,jumbi,bipar,bipas,jumbox,tobil,x,y; 
 	
-	cout<<"LUAS RUMAH\t";
+	cout<<"Luas Rumah\t\t: ";
 	cin>>lurum;
-	jumbi=;
-	cout<<"Luas Rumah : "<<lurum;cout<<"m2"<<endl;
+	cout<<"Jumlah Box Parket\t: ";cin>>jumbi;
+	cout<<"-----------------------------------------";
+	cout<<"Luas Rumah\t\t: "<<lurum;cout<<"m2"<<endl;
 	x=par*jumbi;
 	y=lurum/x;
-	jumbox=y*193/100;
-	cout<<"Jumlah Box Parket:"<<jumbox<<endl;
+	jumbox=y*234.495;
+	cout<<"Jumlah Box Parket\t: "<<jumbox<<endl;
 	bipar=jumbox*500;
-	cout<<"Biaya Parket (Rp) : "<<bipar<<endl;
+	cout<<"Biaya Parket (Rp)\t: "<<bipar<<endl;
 	bipas=lurum*20;
-	cout<<"Biaya Pasang (Rp) : "<<bipas<<endl;
+	cout<<"Biaya Pasang (Rp)\t: "<<bipas<<endl;
 	tobil=bipar+bipas;
-	cout<<"Total Biaya (Rp) : "<<tobil<<endl;
-	
+	cout<<"Total Biaya (Rp)\t: "<<tobil<<endl;	
 		
 }
